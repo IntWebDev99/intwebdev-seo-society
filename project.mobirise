@@ -40,7 +40,7 @@
     "path": "@PROJECT_PATH@",
     "siteFonts": [],
     "versionFirst": "4.7.6",
-    "uniqCompNum": 123,
+    "uniqCompNum": 125,
     "versionPublish": "4.11.6",
     "screenshot": "screenshot.png",
     "favicon": false,
@@ -1813,6 +1813,40 @@
           "_styles": {
             "padding-top": "(@paddingTop * 15px)",
             "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".line": {
+              "background-color": "@lineColor",
+              "color": "@lineColor",
+              "align": "center",
+              "height": "2px",
+              "margin": "0 auto"
+            },
+            ".section-text": {
+              "padding": "2rem 0"
+            },
+            ".inner-container": {
+              "margin": "0 auto"
+            },
+            "@media (max-width: 768px)": {
+              ".inner-container": {
+                "width": "100% !important"
+              }
+            }
+          },
+          "_name": "content10",
+          "_customHTML": "<section class=\"mbr-section article content10\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Text Width\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"66\">\n        <input type=\"range\" inline title=\"Line Width\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"25\">\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#713164\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-white mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".section-text\" mbr-text>Host with the Most: Web Design Hosting\n<div><br></div><div>\n</div><div>the best natural query posed using web page publishing neophytes is \"Where The heck complete I add my web page while I'm done?\" Just since that are produced a web page and there is Affiliate connection will not suggest one's web page is automatically an auto part of the The web. Typically the motivations for such certainly are mind-numbingly technical, However the general principle is that persons by use of The Web need to no way of the \"getting to\" one's laptop and, Even though they did, one's laptop is not built To Be Able To hand out documents (such since internet pages) To Be Able To users that find out for them.\n</div><div>\n</div><div>Computers that may well complete such are named servers (because they \"serve\" stuff), and computers that select within distributing Web sites are named internet servers. So, To Be Able To Start to The point, one's web page is not by use of The internet until everyone store it by use of a internet server. Because the computers certainly are within effect, playing \"host\" To Be Able To one's pages, these machines certainly are in addition recoginized as internet hosts. Companies that operate the internet hosts are named web design hosting providers.\n</div><div>\n</div><div>A web design hosting services offers The server space just where The documents that make build up a internet site reside. A server is definitely a laptop that runs software that serves one's pages To Be Able To any one that view them. Presuming one's website is large, the computers should be powerful, has to operate well-nigh all of The time, and should be connected To Be Able To the web using a a number of redundant lines. To achieve a smaller-scale site, a server tends to be relatively underpowered; if one's website will not consume significantly of the bandwidth, it doesn't even want a quick connection, but it always has to operate well-nigh all of The time. Whichever classification everyone fall into, shop close to for one's web design hosting services and fully investigate references. Acquire How To Be Able To differentiate amongst a sales pitch and a true commitment.\n</div><div>\n</div><div>To get one's website online, it's necessary To Be Able To take up membership using a web design hosting services provider. This typically indicates spending a one-time arrange fee, plus an ongoing monthly bill To Be Able To The provider, so as to in addition can be different greatly based on one's demands and everything that utilities certainly are offered. A number of web design hosting services suppliers bill a flat monthly payment since low since five adatta month, but invoice everyone for more services, including tech support, maintenance, or it could be updating. Presuming one's internet based company will also be handling credit card transactions, it will also be necessary To Be Able To implement a provider offering secure transactions.</div></div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n    </div>\n</section>",
+          "_cid": "sa0hkh3pQH",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content10-3f"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
             "background-color": "@bgColor"
           },
           "_name": "content8",
@@ -2029,6 +2063,40 @@
           "_global": false,
           "_once": false,
           "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".line": {
+              "background-color": "@lineColor",
+              "color": "@lineColor",
+              "align": "center",
+              "height": "2px",
+              "margin": "0 auto"
+            },
+            ".section-text": {
+              "padding": "2rem 0"
+            },
+            ".inner-container": {
+              "margin": "0 auto"
+            },
+            "@media (max-width: 768px)": {
+              ".inner-container": {
+                "width": "100% !important"
+              }
+            }
+          },
+          "_name": "content10",
+          "_customHTML": "<section class=\"mbr-section article content10\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Text Width\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"66\">\n        <input type=\"range\" inline title=\"Line Width\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"25\">\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#713164\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-white mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".section-text\" mbr-text>Guide to Getting Web Design Certification\n<div>\n</div><div>Of late, the net medium has taken center-stage and includes web design pros in large demand, currently should be the perfect time how to appear towards a career in online design, that should be usually the most worthwhile and promising industry, includes online designers earning $30,000 or it could be way more in entry-level positions, and salaries for those includes a few decades of the notice averaging $61,000.\n</div><div>\n</div><div>According how to a magazine survey, many webpage designers and might even webmasters Under no circumstances need to formal, unique educating in You Too Can design online sites. Some need to bachelor's degrees, or it could be 2 year web design qualification degrees that come from technical schools, or it could be absolutely a large an education diploma. the majority advised themselves the basic talents of the designing Online sites. However, when innovation should be inherent, abilities should be learned! at the dynamic area of expertise of the online design, the most crucial period should be the training.\n</div><div>\n</div><div>A university education isn't without exception required for a career as a online designer. As a substitute You can attain a strength in computer science, that might incorporate web design certification. Or any person could possibly research study and attain web design qualification toward a university specializing in professional courses. you may not asks for a university strength to use as a online designer, as large amounts of businesses are way more worried about the point the any person understand You Too Can design a triumphant online site. Nonetheless, any person may be a step in front of of the the competition if by chance any person perform attain a university degree. it will probably consist of in computer science, a main where students learn programming languages and similarly attain web design certification.\n</div><div>\n</div><div>Now that the dust has settled after the dot-com rise and the astounding crash, the Web has get an essential part of standard company practice. each of is an toward the degree exactly where the average person absolutely think the a business, irrelevant of the the size, will need to a efficient online site. So then web design and a steady must for online designers should be at present how to stay. One particular way to attain build up how to speed fast should be how to confiscate a web design qualification course. Whether or not your involvement in web design should be entirely toward the hobbyist level, or it could be if by chance that are absolutely person or it could be a few online projects You will find the a foundational web design class should be every one of any person should carry out the chore toward hand.</div></div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n    </div>\n</section>",
+          "_cid": "sa0sqDCcZw",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content10-3g"
         },
         {
           "alias": false,
